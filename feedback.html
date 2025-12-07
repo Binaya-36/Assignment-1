@@ -6,6 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="#">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="fullname" placeholder="Enter your name" required><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="Email" placeholder="Enter your email" required><br>
+    <label>Rating Section:</label>
+     <input type="radio" id="very" name="rating" value="very satisfied">
+    <label for="very">Very Satisfied</label>
+     <input type="radio" id="satisfied" name="rating" value="satisfied">
+    <label for="satisfied">Satisfied</label>
+     <input type="radio" id="neutral" name="rating" value="neutral">
+    <label for="neutral">Neutral</label>
+     <input type="radio" id="unsatisfied" name="rating" value="unsatisfied">
+    <label for="unsatisfied">Unsatisfied</label><br>
+
+    <label> Interest Section:</label>
+    <input type="checkbox" id="web" value="web dev" name="interest">
+     <label for="web"> Web development</label>
+    <input type="checkbox" id="mobile" value="mobile dev" name="interest">
+     <label for="mobile"> Mobile development</label>
+    <input type="checkbox" id="AI" value="ai & machine learning" name="interest">
+      <label for="AI"> AI & Machine Learning</label>
+
+      <br><label for="Country"> Country</label>
+        <select name="Country" id="Country" required>
+            <option selected disabled> Choose your Country</option>
+            <option value="Nepal">Nepal</option>
+             <option value="Bhutan">Bhutan</option>
+              <option value="China">China</option>
+        </select><br><br>
+        <label for="feedback">For feedback</label>
+              <textarea name="feedback" id="feedback" placeholder="Write your feedback here"></textarea><br><br>
+              <input type="submit" value="submit">
+              </form>
 </body>
 </html>
