@@ -19,3 +19,55 @@ p{
     margin-bottom: 2rem;
     letter-spacing: 2px;
 }
+.button{
+    background-color: red;
+    display: inline-block;
+}
+.favourite{
+    Width: 300px;
+Padding: 20px;
+Border: 2px solid black;
+Margin: 15px;
+box-sizing: border-box;
+}
+span{
+    color: red;
+    font-style: italic;
+}
+nav{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#333 ;
+  padding: 10px 20px;
+}
+.navbar{
+ gap: 20px;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+color: white;
+}
+.navbar a:hover{
+    color: red;
+}
+.content{
+    margin-top: 30px;
+}
+ .main-content {
+            margin-top: 80px;
+            padding: 20px;
+            position: relative; 
+        }
+.important-box {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+ }
+  .sticky-heading {
+            position: sticky;  
+            top: 80px;         
+        
+  }
